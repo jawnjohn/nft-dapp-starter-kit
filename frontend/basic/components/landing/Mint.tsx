@@ -20,7 +20,7 @@ const CONTRACT_ADDRESS = process.env.NEXT_PUBLIC_CONTRACT_ADDRESS;
 const BLOCK_EXPLORER = process.env.NEXT_PUBLIC_BLOCK_EXPLORER_URL;
 const CHAIN_ID = Number(process.env.NEXT_PUBLIC_CHAIN_ID);
 
-const PRICE = 0.02; // change to match the price on your contract
+const PRICE = 0.04; // change to match the price on your contract
 
 const Mint: NextPage = () => {
   const { data: account } = useAccount();
